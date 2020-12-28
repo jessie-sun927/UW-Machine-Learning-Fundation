@@ -1,37 +1,24 @@
-## Week4 Topics:
-* Word count representation for measuring similarity
-  - Bag of words model
-    - Disadvantage: Rare words are not addressed
-  - TF-IDF: Prioritizing important words
-    - Upweight words that are frequent in the document but not corpus
-    - Downweight words that are frequent in the document but also in the corpus
-    
-* Distance metrics:
-  - Euclidean Distance(scaled,non-scaled)
-  - Cosine similarity
-    * Cosine similarity allow us to capture the similarity of docus even if their size differ a lot
-    * Cosine is essentially the same as Euclidean distance on normalized data
-* Retrieving similar documents
-  - 1NN
-  - KNN
-  
-* Clustering similar documents
-  - known labels: multi-classification problem
-  - unknown labels: unsupervised learning problem using k-means algorithm
+## Week3 Topics:
+* Decision boundaries and linear classifier
+* Train a classifier
+* Evaluate classification performance
   
 
 ## Algorithms: 
-* Bag of words, TF-IDF
-* K-means
+* Logistic regression
+* Tree-based methods
+* SVM
 
 
 
 
 
 ## Implementation Details of Programming Assignment:
-* Execute document retrieval code with the Jupyter notebook
+* Execute sentiment analysis code with the Jupyter notebook
 * Load and transform real, text data
-* Compare results with word counts and TF-IDF
-* Set the distance function in the retrieval
-* Build a document retrieval model using nearest neighbor search
+* Using the .apply() function to create new columns (features) for our model
+* Compare results of two models, one using all words and the other using a subset of the words
+* Compare learned models with majority class prediction
+* Examine the predictions of a sentiment model 
+* Build a sentiment analysis model using a classifier
 
